@@ -5,5 +5,5 @@ let incrementBtn = document.getElementById("incrementBtn");
 
 incrementBtn.addEventListener("click", ()=>{
 	alert(count.textContent);
-	count.textContent = parseInt(count.textContent) + 1;
+	count.textContent = (parseInt(count.textContent) + 1).toString();
 })
